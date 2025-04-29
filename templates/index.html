@@ -1,1 +1,127 @@
-
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnosi di Otite Media</title>
+    <style>
+        body {
+            font-family: Arial, "Times New Roman", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0fff4; /* Very light green */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            margin-bottom: 20px;
+        }
+        header .logo img {
+            max-width: 250px;
+            height: auto;
+        }
+        main {
+            background-color: #eafdea; /* Slightly lighter green */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .upload-form {
+            margin-top: 20px;
+        }
+        .upload-form input {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 300px;
+        }
+        .upload-form button {
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+        .upload-form button:hover {
+            background-color: #45a049; /* Slightly darker green */
+        }
+        .results {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #e0ffe0; /* Very soft green */
+            border: 1px solid #4CAF50;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .results ul {
+            padding-left: 20px; /* Align causes closer to the built content */
+            margin-top: 10px; /* Reduce spacing below other results */
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        img.uploaded-image {
+            max-width: 40%;
+            height: auto;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.otofarmaspa.com/wp-content/uploads/2022/11/cropped-Logo-otofarma-png-1.png" alt="Logo Otofarma">
+        </div>
+        <h1>Diagnosi di Otite Media</h1>
+    </header>
+    <main>
+        <section class="upload-form">
+            <h2>Carica un'immagine</h2>
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="file" accept="image/*" required>
+                <button type="submit">Premi per diagnosticare</button>
+            </form>
+        </section>
+        {% if uploaded_image %}
+        <img class="uploaded-image" src="{{ uploaded_image }}" alt="Immagine Caricata">
+        <section class="results">
+            <h2>Risultati</h2>
+            <p><strong>Predizione:</strong> {{ prediction }}</p>
+            <p><strong>Sicurezza:</strong> {{ confidence }}</p>
+            <p><strong>Descrizione:</strong> {{ description }}</p>
+            <p><strong>Cause:</strong></p>
+            <ul>
+                {% for cause in causes %}
+                <li>{{ cause }}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+    </main>
+    <footer>
+        <p>Supportato da Machine Learning &copy; 2025</p>
+    </footer>
+</body>
+</html>
