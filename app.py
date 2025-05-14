@@ -15,8 +15,8 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Local model file path
-MODEL_PATH = os.path.join(BASE_DIR, "model_storage", "disease_model_v1.h5")
+# Updated model path
+MODEL_PATH = os.path.join(BASE_DIR, "saved_model", "final_model.h5")
 
 # Ensure the model file exists
 if not os.path.exists(MODEL_PATH):
