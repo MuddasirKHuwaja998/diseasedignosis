@@ -3,125 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diagnosi di Otite Media</title>
+    <title>Carica Immagini delle Orecchie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, "Times New Roman", sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0fff4; /* Very light green */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            min-height: 100vh;
-            text-align: center;
-            color: #333;
+            font-family: 'Times New Roman', serif;
+            background-color: #e6f7e6;
         }
         header {
-            margin-bottom: 20px;
-        }
-        header .logo img {
-            max-width: 250px;
-            height: auto;
-        }
-        main {
-            background-color: #eafdea; /* Slightly lighter green */
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 90%;
-            max-width: 600px;
-        }
-        h1, h2 {
-            color: #4CAF50;
-        }
-        .upload-form {
-            margin-top: 20px;
-        }
-        .upload-form input {
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            width: 100%;
-            max-width: 300px;
-        }
-        .upload-form button {
-            padding: 10px 20px;
-            background-color: #4CAF50; /* Green */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 10px;
-            width: 100%;
-            max-width: 300px;
-        }
-        .upload-form button:hover {
-            background-color: #45a049; /* Slightly darker green */
-        }
-        .results {
-            margin-top: 20px;
+            background-color: #d4edda;
             padding: 20px;
-            background-color: #e0ffe0; /* Very soft green */
-            border: 1px solid #4CAF50;
-            border-radius: 10px;
-            text-align: left;
+            text-align: center;
+            border-bottom: 1px solid #28a745;
         }
-        .results ul {
-            padding-left: 20px; /* Align causes closer to the built content */
-            margin-top: 10px; /* Reduce spacing below other results */
+        .logo {
+            max-height: 60px;
+        }
+        .header-description {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .upload-section {
+            background-color: #e6f7e6;
+            border: 1px solid #28a745;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+        .ear-box {
+            border: 1px solid #28a745;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            max-width: 300px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .ear-icon {
+            max-width: 150px;
+            margin-bottom: 15px;
+            border: 1px solid #28a745;
+            border-radius: 50%;
+        }
+        .btn-submit {
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            background-color: #28a745;
+            color: white;
+            border: 1px solid #28a745;
+            border-radius: 5px;
+        }
+        .btn-submit:hover {
+            background-color: #218838;
         }
         footer {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #666;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #d4edda;
+            font-size: 1em;
+            border-top: 1px solid #28a745;
         }
-        img.uploaded-image {
-            max-width: 40%;
-            height: auto;
-            margin-top: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        footer p {
+            margin: 0;
+            color: #555;
+        }
+        footer a {
+            color: #28a745;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="https://www.otofarmaspa.com/wp-content/uploads/2022/11/cropped-Logo-otofarma-png-1.png" alt="Logo Otofarma">
-        </div>
-        <h1>Diagnosi di Otite Media</h1>
+        <img src="https://www.otofarmaspa.com/wp-content/uploads/2022/11/cropped-Logo-otofarma-png-1.png" alt="Logo Otofarma" class="logo">
+        <p class="header-description">
+            Questo sistema basato su AI/ML è progettato per diagnosticare condizioni relative all'orecchio, come <strong>Otite Media Cronica</strong>, <strong>Tappo di Cerume</strong> e <strong>Otite Esterna</strong>, tra le altre. 
+            Costruito con modelli di apprendimento automatico avanzati, analizza le immagini caricate per fornire approfondimenti accurati. Questa innovazione combina la visione artificiale con l'esperienza medica per supportare i processi diagnostici.
+        </p>
     </header>
-    <main>
-        <section class="upload-form">
-            <h2>Carica un'immagine</h2>
-            <form method="POST" enctype="multipart/form-data">
-                <input type="file" name="file" accept="image/*" required>
-                <button type="submit">Premi per diagnosticare</button>
+
+    <main class="container">
+        <section class="upload-section">
+            <h2 class="text-center mb-4">Carica Immagini delle Orecchie</h2>
+            {% if error %}
+                <div class="alert alert-danger">{{ error }}</div>
+            {% endif %}
+            <form action="/" method="post" enctype="multipart/form-data">
+                <div class="row justify-content-center">
+                    <div class="col-md-5 text-center ear-box">
+                        <img src="https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-hearing-logo-template-vector-icon-design-png-image_5307378.png" alt="Icona Orecchio Sinistro" class="ear-icon" style="transform: scaleX(-1);">
+                        <h3>Orecchio Sinistro</h3>
+                        <input type="file" name="left_ear" accept="image/*" class="form-control">
+                    </div>
+                    <div class="col-md-5 text-center ear-box">
+                        <img src="https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-hearing-logo-template-vector-icon-design-png-image_5307378.png" alt="Icona Orecchio Destro" class="ear-icon">
+                        <h3>Orecchio Destro</h3>
+                        <input type="file" name="right_ear" accept="image/*" class="form-control">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success btn-submit">Invia Entrambe le Orecchie</button>
             </form>
         </section>
-        {% if uploaded_image %}
-        <img class="uploaded-image" src="{{ uploaded_image }}" alt="Immagine Caricata">
-        <section class="results">
-            <h2>Risultati</h2>
-            <p><strong>Predizione:</strong> {{ prediction }}</p>
-            <p><strong>Sicurezza:</strong> {{ confidence }}</p>
-            <p><strong>Descrizione:</strong> {{ description }}</p>
-            <p><strong>Cause:</strong></p>
-            <ul>
-                {% for cause in causes %}
-                <li>{{ cause }}</li>
-                {% endfor %}
-            </ul>
-        </section>
-        {% endif %}
     </main>
+
     <footer>
-        <p>Supportato da Machine Learning &copy; 2025</p>
+        <p>Per lesioni gravi o emergenze, si prega di visitare le cliniche <a href="https://www.otofarmaspa.com" target="_blank">Otofarma Spa</a> per assistenza e cura professionale.</p>
     </footer>
 </body>
 </html>

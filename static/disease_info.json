@@ -1,0 +1,536 @@
+{
+  "Otite Media Acuta": [
+    {
+      "description": "Un'infezione improvvisa dell'orecchio medio con accumulo di liquido e infiammazione dietro la membrana timpanica.",
+      "causes": [
+        "Disfunzione della tuba di Eustachio secondaria a infezione virale delle alte vie respiratorie",
+        "Patogeni batterici come Streptococcus pneumoniae, Haemophilus influenzae, Moraxella catarrhalis",
+        "Infiammazione allergica che porta a un versamento"
+      ],
+      "cautions": [
+        "Iniziare un'analgesia appropriata e osservare per 48–72 ore nei casi lievi",
+        "Iniziare antibiotici se i sintomi persistono o peggiorano (soprattutto nei bambini sotto i 2 anni)",
+        "Evitare di inserire oggetti nel condotto uditivo"
+      ]
+    },
+    {
+      "description": "Un processo infiammatorio acuto nell'orecchio medio caratterizzato da otalgia, febbre e un timpano gonfio e arrossato.",
+      "causes": [
+        "Infezione virale del rinofaringe che provoca il blocco della tuba di Eustachio",
+        "Crescita batterica secondaria in un versamento dell'orecchio medio",
+        "Esposizione al fumo di tabacco che aumenta l'edema della mucosa"
+      ],
+      "cautions": [
+        "Monitorare i segni di mastoidite o diffusione intracranica",
+        "Mantenere l'orecchio asciutto per prevenire infezioni sovrapposte del canale esterno",
+        "Effettuare un controllo entro una settimana per garantire la risoluzione"
+      ]
+    },
+    {
+      "description": "Una malattia dell'orecchio medio a insorgenza rapida caratterizzata da febbre, dolore auricolare e versamento osservabile durante l'otoscopia.",
+      "causes": [
+        "Raffreddori virali infantili che portano a infiammazione della tuba di Eustachio",
+        "Batteri che producono biofilm colonizzano l'orecchio medio",
+        "Fattori congeniti o anatomici che compromettono il drenaggio"
+      ],
+      "cautions": [
+        "Riferire a un otorinolaringoiatra in caso di recidiva (≥3 episodi in 6 mesi)",
+        "Educare i caregiver sul dosaggio corretto degli antibiotici prescritti",
+        "Evitare l'uso eccessivo di decongestionanti topici"
+      ]
+    },
+    {
+      "description": "Un'infezione dell'orecchio medio che si manifesta acutamente con liquido dietro la membrana timpanica e sintomi sistemici.",
+      "causes": [
+        "Infezioni delle vie respiratorie superiori che si diffondono nello spazio dell'orecchio medio",
+        "Immaturità immunitaria nei neonati e nei bambini piccoli",
+        "Epidemie virali stagionali (ad esempio, influenza)"
+      ],
+      "cautions": [
+        "Considerare l'uso di tubi di timpanostomia in casi ricorrenti o cronici",
+        "Prevenire riducendo l'esposizione all'asilo nido e evitando il fumo",
+        "Assicurarsi che le vaccinazioni siano aggiornate"
+      ]
+    }
+  ],
+  "Otite Media Cronica": [
+    {
+      "description": "Un'infiammazione persistente dell'orecchio medio della durata di tre mesi o più, spesso accompagnata da perforazione della membrana timpanica e otorrea.",
+      "causes": [
+        "Otite media acuta non trattata o trattata in modo inadeguato",
+        "Disfunzione cronica della tuba di Eustachio",
+        "Biofilm persistente nella mucosa dell'orecchio medio"
+      ],
+      "cautions": [
+        "Valutazioni regolari da parte di un otorinolaringoiatra per l'assessment dell'udito",
+        "Mantenere l'igiene dell'orecchio e adottare precauzioni per mantenerlo asciutto",
+        "Evitare l'automedicazione con gocce non prescritte"
+      ]
+    },
+    {
+      "description": "Una patologia cronica dell'orecchio medio caratterizzata da secrezioni continue e perforazioni della membrana timpanica.",
+      "causes": [
+        "Infezioni acute ricorrenti che portano a perforazioni timpaniche",
+        "Formazione di colesteatoma che erode gli ossicini",
+        "Disfunzione della tuba di Eustachio di origine allergica o autoimmune"
+      ],
+      "cautions": [
+        "Riferire immediatamente per un intervento chirurgico se si sospetta un colesteatoma",
+        "Utilizzare gocce antibiotiche come prescritto",
+        "Monitorare la perdita uditiva conduttiva"
+      ]
+    },
+    {
+      "description": "Un'infezione o infiammazione cronica dell'orecchio medio con secrezioni intermittenti o continue.",
+      "causes": [
+        "Colonizzazione da Pseudomonas aeruginosa o Staphylococcus aureus",
+        "Ventilazione inadeguata a causa di un'ostruzione della tuba di Eustachio",
+        "Precedente intervento chirurgico al mastoide"
+      ],
+      "cautions": [
+        "Evitare l'ingresso di acqua; usare tappi per le orecchie durante il bagno",
+        "Eseguire colture per guidare la terapia antibiotica",
+        "Effettuare test audiometrici regolari"
+      ]
+    },
+    {
+      "description": "Otite media suppurativa cronica con perforazione persistente e otorrea mucopurulenta.",
+      "causes": [
+        "Infezione batterica cronica con flora mista",
+        "Lesione traumatica della membrana timpanica",
+        "Modifiche mucosali indotte da radiazioni"
+      ],
+      "cautions": [
+        "Assicurarsi che l'orecchio rimanga privo di umidità",
+        "Considerare la timpanoplastica per la riparazione",
+        "Educare sui rischi di complicazioni intracraniche"
+      ]
+    }
+  ],
+  "Ventilazione dell'Orecchio": [
+    {
+      "description": "Inserimento di un piccolo tubo di timpanostomia attraverso il timpano per ventilare l'orecchio medio e prevenire l'accumulo di liquidi.",
+      "causes": [
+        "Otite media ricorrente con versamento",
+        "Effusioni croniche dell'orecchio medio che compromettono l'udito",
+        "Disfunzione della tuba di Eustachio non rispondente alla terapia medica"
+      ],
+      "cautions": [
+        "Evitare di nuotare senza un auricolare personalizzato",
+        "Monitorare l'ostruzione del tubo o l'espulsione precoce",
+        "Programmare regolari controlli con l'otorinolaringoiatra"
+      ]
+    },
+    {
+      "description": "Inserimento di tubi di ventilazione (grommet) nella membrana timpanica per equalizzare la pressione e drenare i versamenti.",
+      "causes": [
+        "Liquido persistente nell'orecchio medio che causa perdita uditiva conduttiva",
+        "Ritardo del linguaggio attribuito a un versamento nei bambini piccoli",
+        "Barotrauma nei subacquei o nei viaggiatori frequenti"
+      ],
+      "cautions": [
+        "Mantenere le orecchie asciutte; usare gocce profilattiche durante l'esposizione all'acqua",
+        "Monitorare l'otorrea indicativa di infezione",
+        "Pianificare la rimozione o la sostituzione dei tubi se trattenuti oltre 12 mesi"
+      ]
+    },
+    {
+      "description": "Miringotomia chirurgica con inserimento di tubi per ripristinare l'aerazione della cavità dell'orecchio medio.",
+      "causes": [
+        "Effusione persistente dell'orecchio medio dopo AOM",
+        "Ostruzione cronica della tuba di Eustachio dovuta a ipertrofia adenoidea",
+        "Otite media acuta ricorrente refrattaria agli antibiotici"
+      ],
+      "cautions": [
+        "Educare i caregiver sui segni di otite media ricorrente",
+        "Ispezionare mensilmente i tubi per verificarne la pervietà",
+        "Evitare soffi nasali troppo vigorosi"
+      ]
+    },
+    {
+      "description": "Tubi di timpanostomia inseriti per mantenere la ventilazione dell'orecchio medio e ridurre la frequenza delle infezioni.",
+      "causes": [
+        "Fallimento della gestione conservativa del versamento",
+        "Rischio significativo di ritardo del linguaggio o dell'apprendimento",
+        "Storia familiare di malattie croniche dell'orecchio"
+      ],
+      "cautions": [
+        "Utilizzare dispositivi protettivi per l'acqua durante la doccia",
+        "Valutazione audiologica periodica dopo l'inserimento",
+        "Riferire al chirurgo se i tubi non vengono espulsi spontaneamente"
+      ]
+    }
+  ],
+  "Tappo di Cerume": [
+    {
+      "description": "Impaccamento di cerume nel condotto uditivo esterno che provoca sensazione di pienezza e possibile perdita uditiva.",
+      "causes": [
+        "Iperproduzione di secrezioni ceruminose",
+        "Canali uditivi stretti o pelosi",
+        "Pulizia impropria con bastoncini di cotone che spingono il cerume più in profondità"
+      ],
+      "cautions": [
+        "Ammorbidire il cerume con gocce a base di urea o olio minerale",
+        "Evitare di sondare il condotto con strumenti",
+        "Rivolgersi a un professionista per una microaspirazione se non risolto"
+      ]
+    },
+    {
+      "description": "Un accumulo denso di cerume che blocca il condotto uditivo e altera la conduzione del suono.",
+      "causes": [
+        "Cambiamenti delle ghiandole ceruminose legati all'età",
+        "Uso di apparecchi acustici che causano ritenzione",
+        "Irritazione frequente del condotto che porta a ipersecrezione"
+      ],
+      "cautions": [
+        "Eseguire un'irrigazione delicata con acqua a temperatura corporea",
+        "Sconsigliare tentativi di rimozione autonoma",
+        "Valutare prima l'integrità della membrana timpanica"
+      ]
+    },
+    {
+      "description": "Impattazione del cerume che causa perdita uditiva conduttiva, acufeni o fastidio auricolare.",
+      "causes": [
+        "Eccesso di cerume dovuto all'iperattività delle ghiandole ceruminose",
+        "Stenosi del condotto che aumenta la ritenzione",
+        "Uso di auricolari che impediscono l'espulsione naturale"
+      ],
+      "cautions": [
+        "Raccomandare gocce ceruminolitiche ogni notte per una settimana",
+        "Pianificare la rimozione da parte di un otorinolaringoiatra o audiologo",
+        "Monitorare per otite esterna dopo la rimozione"
+      ]
+    },
+    {
+      "description": "Un tappo di cerume indurito che ostruisce il condotto uditivo e talvolta causa prurito o infezione.",
+      "causes": [
+        "Secchezza indotta dal clima che indurisce il cerume",
+        "Uso di dispositivi di protezione auricolare",
+        "Dermatosi come eczema nel condotto"
+      ],
+      "cautions": [
+        "Ispezionare periodicamente il condotto nei pazienti a rischio",
+        "Utilizzare agenti ammorbidenti prima della rimozione",
+        "Assicurarsi di utilizzare tecniche corrette durante l'irrigazione"
+      ]
+    }
+  ],
+  "Corpo Estraneo": [
+    {
+      "description": "Un oggetto estraneo bloccato nel condotto uditivo, che può causare dolore, infezione o perdita dell'udito.",
+      "causes": [
+        "Inserimento accidentale da parte dei bambini (perline, giocattoli)",
+        "Insetti che entrano nel condotto durante il sonno",
+        "Punte di bastoncini di cotone lasciate nel condotto"
+      ],
+      "cautions": [
+        "Non tentare la rimozione alla cieca; rischio di lesioni al condotto o alla membrana",
+        "Consultare prontamente un otorinolaringoiatra",
+        "Immobilizzare gli insetti vivi con olio minerale prima della rimozione"
+      ]
+    },
+    {
+      "description": "Qualsiasi materiale non biologico incastrato nel condotto uditivo che richiede estrazione professionale.",
+      "causes": [
+        "Inserimento autoindotto per alleviare il prurito",
+        "Rottura dello stampo di un apparecchio acustico",
+        "Detriti ambientali durante attività all'aperto"
+      ],
+      "cautions": [
+        "Evitare il lavaggio con acqua se sono presenti oggetti come batterie",
+        "Utilizzare aspirazione o pinzette sotto microscopia",
+        "Valutare la presenza di otite esterna secondaria"
+      ]
+    },
+    {
+      "description": "Un oggetto trattenuto nel condotto uditivo che può causare ostruzione, dolore o infezione.",
+      "causes": [
+        "Uso improprio durante la pulizia dell'orecchio (cotton fioc, forcine)",
+        "Curiosità nei bambini",
+        "Infestazione di insetti in ambienti esterni"
+      ],
+      "cautions": [
+        "Proteggere contro traumi al condotto durante la rimozione",
+        "Somministrare antibiotici topici se infetto",
+        "Educare i caregiver sulla prevenzione"
+      ]
+    },
+    {
+      "description": "Un corpo estraneo bloccato nel condotto uditivo che richiede tecniche di rimozione attente da parte di un otorinolaringoiatra.",
+      "causes": [
+        "Auto-inserimento di piccoli oggetti",
+        "Ingresso traumatico (ad esempio, detriti proiettili)",
+        "Elementi medici lasciati in situ dopo un intervento"
+      ],
+      "cautions": [
+        "Utilizzare un'illuminazione e una magnificazione appropriate",
+        "Riferire in sala operatoria se l'oggetto è profondamente incastrato",
+        "Monitorare i segni di perforazione"
+      ]
+    }
+  ],
+  "Miringosclerosi": [
+    {
+      "description": "Deposizione di placche di calcio nella membrana timpanica a seguito di traumi o infiammazioni ripetute.",
+      "causes": [
+        "Episodi ricorrenti di otite media",
+        "Siti di inserimento di tubi di ventilazione",
+        "Disfunzione cronica della tuba di Eustachio"
+      ],
+      "cautions": [
+        "Tipicamente asintomatico, ma valutare le soglie uditive",
+        "Differenziare dal colesteatoma",
+        "Osservare a meno che non vi siano effetti sull'udito"
+      ]
+    },
+    {
+      "description": "Cicatrici e calcificazioni del timpano visibili come macchie bianche e gessose durante l'otoscopia.",
+      "causes": [
+        "Guarigione dopo perforazioni della membrana timpanica",
+        "Posizionamento prolungato di tubi nell'orecchio medio",
+        "Lesioni esterne alla membrana"
+      ],
+      "cautions": [
+        "Monitorare la fissazione degli ossicini",
+        "Considerare un apparecchio acustico se si sviluppa una perdita conduttiva",
+        "Evitare manipolazioni inutili della membrana"
+      ]
+    },
+    {
+      "description": "Ispessimento fibroso con ialinizzazione della membrana timpanica a seguito di infiammazione cronica.",
+      "causes": [
+        "Numerose miringotomie",
+        "Effusione persistente dell'orecchio medio",
+        "Trauma esterno"
+      ],
+      "cautions": [
+        "Assicurarsi che non vi siano declini progressivi dell'udito",
+        "Rassicurare i pazienti quando asintomatici",
+        "Riferire a un otorinolaringoiatra se si considera la riparazione"
+      ]
+    },
+    {
+      "description": "Sclerosi localizzata del timpano che riflette una precedente patologia dell'orecchio medio senza infezione attiva.",
+      "causes": [
+        "Guarigione di una perforazione cronica",
+        "Procedure di ventilazione tubarica",
+        "Danno alla membrana mediato dal sistema immunitario"
+      ],
+      "cautions": [
+        "Audiologia periodica per rilevare eventuali cambiamenti",
+        "Educare sulla natura benigna della condizione",
+        "Evitare manipolazioni timpaniche non necessarie"
+      ]
+    }
+  ],
+  "Normale": [
+    {
+      "description": "Un condotto uditivo e una membrana timpanica sani senza segni di infiammazione, versamento o modifiche strutturali.",
+      "causes": [
+        "Assenza di infezione o trauma",
+        "Produzione ed espulsione normale di cerume"
+      ],
+      "cautions": [
+        "Mantenere una pulizia di routine senza sondare",
+        "Proteggere le orecchie dal rumore eccessivo",
+        "Monitorare per eventuali nuovi sintomi"
+      ]
+    },
+    {
+      "description": "Membrana timpanica chiara e traslucida con punti di riferimento normali e mobilità all'otoscopia pneumatica.",
+      "causes": [
+        "Funzione mucociliare integra",
+        "Funzione efficace della tuba di Eustachio"
+      ],
+      "cautions": [
+        "Evitare bastoncini di cotone o oggetti appuntiti",
+        "Utilizzare protezioni auricolari in ambienti rumorosi",
+        "Evitare l'ingresso di acqua durante il nuoto"
+      ]
+    },
+    {
+      "description": "Aspetto otoscopico normale senza patologie nel canale o nell'orecchio medio.",
+      "causes": [
+        "Omeostasi ceruminosa equilibrata",
+        "Nessuna recente infezione delle alte vie respiratorie"
+      ],
+      "cautions": [
+        "Educare sui metodi di pulizia sicuri",
+        "Incoraggiare una valutazione tempestiva in caso di sintomi"
+      ]
+    },
+    {
+      "description": "Un esame normale che mostra una membrana timpanica grigio pallido, leggermente concava, con ossa visibili.",
+      "causes": [
+        "Salute ottimale delle orecchie e ventilazione",
+        "Nessuna storia di malattie auricolari"
+      ],
+      "cautions": [
+        "Mantenere il calendario delle vaccinazioni per prevenire infezioni",
+        "Limitare l'esposizione a sostanze irritanti"
+      ]
+    }
+  ],
+  "Otite Esterna": [
+    {
+      "description": "Infiammazione o infezione del condotto uditivo esterno che spesso si presenta con dolore ed edema del canale.",
+      "causes": [
+        "Esposizione frequente all'acqua ('orecchio del nuotatore')",
+        "Trauma meccanico dovuto alla pulizia",
+        "Condizioni dermatologiche (eczema)"
+      ],
+      "cautions": [
+        "Mantenere il canale asciutto; utilizzare gocce a base di acido acetico",
+        "Evitare di inserire oggetti",
+        "Prescrivere combinazioni di antibiotici e steroidi topici"
+      ]
+    },
+    {
+      "description": "Infezione acuta dell'orecchio esterno caratterizzata da prurito, otalgia—soprattutto alla manipolazione del padiglione auricolare—e secrezione purulenta.",
+      "causes": [
+        "Colonizzazione da Pseudomonas aeruginosa",
+        "Invasione da Staphylococcus aureus",
+        "Macerazione della pelle del canale"
+      ],
+      "cautions": [
+        "Precauzioni per mantenere l'orecchio asciutto dopo il nuoto",
+        "Controlli regolari per garantire la risoluzione",
+        "Verificare la presenza di otite esterna maligna nei pazienti diabetici"
+      ]
+    },
+    {
+      "description": "Otite che colpisce la pelle del condotto uditivo, spesso con eritema, desquamazione e possibile secrezione.",
+      "causes": [
+        "Dermatite allergica da contatto con prodotti per capelli",
+        "Tentativi eccessivi di rimozione del cerume",
+        "Degrado della pelle indotto dall'umidità"
+      ],
+      "cautions": [
+        "Utilizzare tecniche di pulizia e asciugatura delicate",
+        "Considerare un'eziologia fungina se non vi sono miglioramenti",
+        "Evitare l'uso di auricolari"
+      ]
+    },
+    {
+      "description": "Processo infettivo dell'orecchio esterno che si manifesta con tenerezza, fastidio uditivo e restringimento del canale.",
+      "causes": [
+        "Allergeni ambientali",
+        "Uso eccessivo di antibiotici topici che causano resistenza",
+        "Climi ad alta umidità"
+      ],
+      "cautions": [
+        "Utilizzare gocce acidificanti per l'orecchio",
+        "Educare sull'evitare traumi al canale",
+        "Riferire a un otorinolaringoiatra se si sviluppa stenosi"
+      ]
+    }
+  ],  
+  "Pseudomembranosa": [
+    {
+      "description": "Formazione di una falsa membrana composta da detriti necrotici e fibrina sopra il canale uditivo o la superficie timpanica.",
+      "causes": [
+        "Otite esterna necrotizzante grave",
+        "Coinvolgimento tubercolare dell'orecchio medio",
+        "Infezione difterica rara nelle aree sviluppate"
+      ],
+      "cautions": [
+        "Ottenere colture per guidare la terapia",
+        "Debridare sotto visualizzazione diretta",
+        "Somministrare antibiotici sistemici quando indicato"
+      ]
+    },
+    {
+      "description": "Uno strato fibrinoso aderente sopra le superfici mucosali durante intense risposte infiammatorie nell'orecchio.",
+      "causes": [
+        "Otite esterna associata a noma",
+        "Necrosi da Pseudomonas",
+        "Ustioni chimiche alla pelle del canale"
+      ],
+      "cautions": [
+        "Monitorare la progressione verso osteomielite",
+        "Utilizzare debridement graduale",
+        "Fornire gestione del dolore"
+      ]
+    },
+    {
+      "description": "Una membrana grigiastra-biancastra che può coprire lesioni in infezioni dell'orecchio aggressive.",
+      "causes": [
+        "Infezioni batteriche necrotizzanti",
+        "Otite esterna fungina grave",
+        "Vasculite autoimmune"
+      ],
+      "cautions": [
+        "Considerare una biopsia se atipica",
+        "Applicare agenti topici dopo il debridement",
+        "Osservare il coinvolgimento dei nervi cranici"
+      ]
+    },
+    {
+      "description": "Sviluppo di una falsa membrana che indica un processo infettivo o infiammatorio di elevata gravità nell'orecchio.",
+      "causes": [
+        "Infezione cronica non trattata del canale esterno",
+        "Immunosoppressione che porta a proliferazione fungina",
+        "Danno da radiazioni"
+      ],
+      "cautions": [
+        "Consultare uno specialista in malattie infettive per organismi resistenti",
+        "Garantire la rimozione completa per consentire la terapia topica",
+        "Valutare l'integrità ossea con imaging"
+      ]
+    }
+  ],  
+  "Timpanoclerosi": [
+    {
+      "description": "Modifiche calcifiche nella membrana timpanica e nella mucosa dell'orecchio medio visibili come placche bianche durante l'otoscopia.",
+      "causes": [
+        "Ripetute infezioni dell'orecchio medio guarite con fibrosi",
+        "Presenza a lungo termine di tubi di ventilazione",
+        "Danno subepiteliale indotto da traumi"
+      ],
+      "cautions": [
+        "Valutare la mobilità della catena ossiculare",
+        "Eseguire audiometria per quantificare la perdita conduttiva",
+        "Discutere opzioni chirurgiche se l'udito è compromesso"
+      ]
+    },
+    {
+      "description": "Ialinizazione e cicatrizzazione dei tessuti dell'orecchio medio che portano a possibile fissazione degli ossicini.",
+      "causes": [
+        "Otite media cronica con effusione",
+        "Fibrosi post-infiammatoria",
+        "Predisposizione genetica legata a disturbi del tessuto connettivo"
+      ],
+      "cautions": [
+        "Monitorare il declino progressivo dell'udito",
+        "Riferire per una possibile ossiculoplastica",
+        "Evitare una pulizia aggressiva del canale uditivo"
+      ]
+    },
+    {
+      "description": "Una sequela di infiammazione persistente dell'orecchio medio che porta a macchie bianche sclerotiche sul timpano.",
+      "causes": [
+        "Infiammazione autoimmune dell'orecchio medio",
+        "Persistenza di biofilm",
+        "Guarigione di perforazioni ricorrenti con calcificazione"
+      ],
+      "cautions": [
+        "Valutare la necessità di una timpanoplastica",
+        "Educare il paziente sulla natura benigna se lieve",
+        "Programmare controlli audiologici periodici"
+      ]
+    },
+    {
+      "description": "Focolai bianchi e solidi sulla membrana timpanica che indicano degenerazione del collagene e deposizione di calcio.",
+      "causes": [
+        "Guarigione del sito di miringotomia",
+        "Effusione prolungata con irritazione della mucosa",
+        "Trauma esterno"
+      ],
+      "cautions": [
+        "Differenziare dal colesteatoma",
+        "Testare l'udito annualmente",
+        "Sconsigliare manovre di Valsalva vigorose"
+      ]
+    }
+  ]
+}

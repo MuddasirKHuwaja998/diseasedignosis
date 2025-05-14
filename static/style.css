@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #28a745;
+    --secondary-color: #ffffff;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+.ear-icon {
+    height: 120px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.ear-icon:hover {
+    transform: scale(1.1);
+}
+
+.btn-upload {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-upload:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.upload-section {
+    background-color: var(--secondary-color);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px 0;
+}
+
+.footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.result-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.disease-name {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.result-image {
+    max-width: 300px;
+    border-radius: 10px;
+}
