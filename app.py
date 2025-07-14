@@ -3,6 +3,7 @@ import random
 import json
 import base64
 from flask import Flask, render_template, request
+from flask_cors import CORS  # <-- Added for CORS support
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
@@ -13,6 +14,7 @@ from PIL import Image
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 
 app = Flask(__name__)
+CORS(app)  # <-- Enable CORS for all routes
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Updated model path
@@ -49,12 +51,10 @@ def convert_to_jpeg(file_storage):
     file_data = BytesIO(file_storage.read())
     img = Image.open(file_data)
     converted_img = BytesIO()
-
     # Convert image to RGB mode (required for JPEG) and save as JPEG
     img = img.convert("RGB")
     img.save(converted_img, format="JPEG")
     converted_img.seek(0)
-
     return converted_img
 
 def predict_image(file_storage):
